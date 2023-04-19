@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F6F6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color:
+        #FFFFFF;
+}
+
+
+.logo {
+    margin: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.nav-list a:hover {
+    color: orange;
+}
+
+.nav-list a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-list,
+.btn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-list a {
+    padding: 20px 20px;
+    font-weight: bold;
+}
+
+.btn li {
+    margin: 5px;
+}
+
+.btn button {
+    padding: 10px 20px;
+    background-color:
+        #F28E20;
+    color: white;
+    border: none;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+/* ____________________________________ */
+
+.bread {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.mr {
+    background-color: white;
+}
+
+.img {
+    width: 50%;
+}
+
+.img img {
+    width: 600px;
+    margin-left: 40px;
+}
+
+.head {
+    width: 50%;
+    text-align: left;
+    margin-left: 40px;
+    /* flex-grow: row wrap; */
+}
+
+.head h1 {
+    color: #F28E20;
+    font-size: 80px;
+}
+
+.head h2 {
+    color: #7F7F84;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* ______________________________________ */
+
+.str {
+    background-color: #F7F7F7;
+}
+
+.story h2,
+.story p {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.story h2 {
+    font-size: 50px;
+    color: #7F7F84;
+    padding: 30px 0px;
+
+}
+
+.story {
+    padding: 20px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.story p {
+    padding: 10px;
+    line-height: 25px;
+    text-align: left;
+    margin: auto;
+}
+
+/* ________________________ */
+.text1 {
+    display: flex;
+    width: 100%;
+}
+
+.about {
+    width: 50%;
+    background-color: #F28E20;
+    padding: 50px;
+    color: white;
+}
+
+.about h2 {
+    font-size: 40px;
+}
+
+.about p {
+    text-align: left;
+
+    margin-inline-start: inherit;
+}
+
+.about h3 {
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+
+.manimg {
+    width: 50%;
+}
+
+.manimg img {
+    width: 100%;
+}
+
+/* ____________________________ */
+.About {
+    padding: 15px;
+    background-image: url('/manwithmob.png');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.blur {
+    float: right;
+    width: 59%;
+}
+
+.blur img {
+    height: 535px;
+}
+
+/* ________________________________ */
+
+.what {
+    width: 100%;
+    display: flex;
+}
+
+.we {
+    width: 50%;
+    padding: 50px;
+    background-color: white;
+}
+
+.Do {
+    width: 50%;
+}
+
+.what h2 {
+    font-size: 40px;
+    color: #7F7F84;
+    margin-bottom: 40px;
+}
+
+.what p {
+    line-height: 30px;
+    text-align: left;
+    color: black;
+    margin: 30px 0px;
+    margin-inline-start: inherit;
+}
+
+.we ul li {
+    color: #F28E20;
+    margin: 10px 0px;
+}
+
+.Do img {
+    width: 100%;
+}
+
+/* ___________________ */
+
+.letest .wrapper {
+    width: 70%;
+}
+
+.letest {
+    text-align: center;
+    background-color: #F6F6F6;
+    /* position: relative; */
+    /* top: 480px; */
+}
+
+.letest h2 {
+    margin: 40px 0PX;
+    font-size: 40PX;
+    color: #7F7F84;
+    font-family: 'Poppins', sans-serif;
+}
+
+.letest p {
+    margin: 30px 0PX;
+    font-weight: bold;
+}
+
+.list {
+    display: flex;
+    text-align: left;
+}
+
+.list-card h3 {
+    text-align: left;
+    color: #F28E20;
+}
+
+.list-card {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.list-card li {
+    list-style: disc;
+    margin: 15px 0px;
+}
+
+.list ul {
+    margin-bottom: 40px;
+}
+
+h3 span {
+    color: #F28E20;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* _______________ */
+
+.man img {
+    width: 100%;
+}
+
+/* _____________ */
+
+
+.parent {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+.child1 {
+    width: 50%;
+    background-color: #D87A14;
+    padding: 20px;
+}
+
+.child1 h3,
+.child1 p {
+    text-align: left;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    padding: 5px;
+}
+
+.child2 {
+    width: 50%;
+    background-color: #F28E20;
+    padding: 20px;
+}
+
+.child2 h3,
+.child2 p {
+    text-align: left;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    padding: 5px;
+}
+
+/* _________________ */
+.apps {
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    background-color: white;
+}
+
+.apps .app,
+.apps i {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footlist .btnn {
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footlist .btnn {
+    display: flex;
+}
+
+.footlist h4 {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* __________________
+ */
+.last {
+    background-color: #F6F6F6;
+    color: #7F7F84;
+    padding: 20px;
+
+}
+
+.last p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
